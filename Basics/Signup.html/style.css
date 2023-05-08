@@ -130,6 +130,6 @@ body {
         height: 100px;
         border-radius: 50px;
         background: linear-gradient(to top, #10adbbaa, rgb(37, 75, 77));
-        position: absolute;
+        position: absolute; 
     }
 }

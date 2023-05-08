@@ -1,0 +1,126 @@
+html{
+    background-color: rgb(73 34 208 / 59%);
+}
+#come-things {
+    height: 100vh;
+    width: 100wh;
+    background-image: url("Cyberpunker.jpg"); 
+    background-repeat: no-repeat;
+    background-repeat: repeat;
+    background-size: 60%;
+    background-position: initial;
+    background-attachment: fixed;
+}
+.Div-Class-1{
+    height: 400px;
+    width: 500px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 10px;
+    position: static;
+}
+.Div-SubClass{
+    height: 50%;
+    width: 50%;
+    background-color: chartreuse;
+}
+.Div-Class-2{
+    height: 400px;
+    width: 500px;
+    background-color: rgb(255, 11, 11);
+}
+p{
+    /* display: none; */
+    /* visibility: hidden; */
+    display: hidden;
+    /* visibility: none; */
+}
+
+#all-information{
+    text-align: center;
+    width: 70%;
+     
+    /* margin-left: 500px; */
+}
+
+/* Aside */
+aside{
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+    margin: 2%;
+    margin-top: 6%;
+}
+
+.widget {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    margin-left: 5px;
+    margin-bottom: 30px;;
+}
+.widget input{
+    display: block;
+    background-color: rgba(206, 217, 227, 0.525);
+    margin-bottom: 15px;
+    padding: 4px;
+    color: cornflowerblue;
+    font-size: 1.2rem;
+}
+.widget-title{
+    font-weight: 550;
+    font-variant: small-caps;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+button[type="submit"]{
+    font-size: 1.2rem;
+    background-color: red;
+    color: white;
+    padding: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #4582b47d;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
